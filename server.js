@@ -1,4 +1,5 @@
 const app = require("express")();
+const dotev = require("dotenv").config();
 
 app.get("/", (req, res) => {
   res.json({ status: "ok" });
